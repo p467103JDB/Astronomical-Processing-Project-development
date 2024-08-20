@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSSS Console app", "MSSS Console app\MSSS Console app.csproj", "{AFBB4329-7691-4A83-8896-BE7288CF6DF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFBB4329-7691-4A83-8896-BE7288CF6DF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFBB4329-7691-4A83-8896-BE7288CF6DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFBB4329-7691-4A83-8896-BE7288CF6DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFBB4329-7691-4A83-8896-BE7288CF6DF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD6AF7E6-BD23-4DE4-BF47-D94E5849F3D3}
+	EndGlobalSection
+EndGlobal

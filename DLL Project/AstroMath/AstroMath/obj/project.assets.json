@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\p467103\\Desktop\\AstroMath\\AstroMath\\AstroMath.csproj",
+      "projectUniqueName": "C:\\Users\\p467103\\Desktop\\DLL Project\\AstroMath\\AstroMath\\AstroMath.csproj",
       "projectName": "AstroMath",
-      "projectPath": "C:\\Users\\p467103\\Desktop\\AstroMath\\AstroMath\\AstroMath.csproj",
+      "projectPath": "C:\\Users\\p467103\\Desktop\\DLL Project\\AstroMath\\AstroMath\\AstroMath.csproj",
       "packagesPath": "C:\\Users\\p467103\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\p467103\\Desktop\\AstroMath\\AstroMath\\obj\\",
+      "outputPath": "C:\\Users\\p467103\\Desktop\\DLL Project\\AstroMath\\AstroMath\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\p467103\\AppData\\Roaming\\NuGet\\NuGet.Config",
