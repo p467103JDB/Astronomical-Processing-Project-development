@@ -1,0 +1,11 @@
+C:\Users\p467103\Desktop\AstroMath\AstroMath\bin\Release\net8.0\AstroMath.deps.json
+C:\Users\p467103\Desktop\AstroMath\AstroMath\bin\Release\net8.0\AstroMath.dll
+C:\Users\p467103\Desktop\AstroMath\AstroMath\bin\Release\net8.0\AstroMath.pdb
+C:\Users\p467103\Desktop\AstroMath\AstroMath\obj\Release\net8.0\AstroMath.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\p467103\Desktop\AstroMath\AstroMath\obj\Release\net8.0\AstroMath.AssemblyInfoInputs.cache
+C:\Users\p467103\Desktop\AstroMath\AstroMath\obj\Release\net8.0\AstroMath.AssemblyInfo.cs
+C:\Users\p467103\Desktop\AstroMath\AstroMath\obj\Release\net8.0\AstroMath.csproj.CoreCompileInputs.cache
+C:\Users\p467103\Desktop\AstroMath\AstroMath\obj\Release\net8.0\AstroMath.dll
+C:\Users\p467103\Desktop\AstroMath\AstroMath\obj\Release\net8.0\refint\AstroMath.dll
+C:\Users\p467103\Desktop\AstroMath\AstroMath\obj\Release\net8.0\AstroMath.pdb
+C:\Users\p467103\Desktop\AstroMath\AstroMath\obj\Release\net8.0\ref\AstroMath.dll
