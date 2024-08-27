@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AstroMath")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d3e4197c080690f0bd7e6c8ecc831c03c352a70")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("AstroMath")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AstroMath")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

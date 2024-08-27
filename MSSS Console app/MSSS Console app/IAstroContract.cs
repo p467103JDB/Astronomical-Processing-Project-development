@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using System.ServiceModel;
 
 // Student Activity 10 + 11
@@ -12,7 +7,7 @@ using System.ServiceModel;
 namespace MSSS_Console_app
 {
     [ServiceContract] // Q6.1 Create ServiceContract Fie called "IAstroContract.cs" - Implement the four operations of the DLL
-    public interface IAstroContract
+    internal interface IAstroContract
     {
         [OperationContract]
         double StarVelocity(double observedWaveLength, double restWaveLength);

@@ -1,10 +1,5 @@
 ﻿namespace AstroMath
 {
-    public interface IAstroMathFunctions
-    {
-        AstroMathFunctions GetAstroMathFunctions();
-    }
-
     public class AstroMathFunctions
     {
         public double StarVelocity(double observedWavelength, double restWaveLength)

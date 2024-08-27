@@ -1,32 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ServiceModel;
 using AstroMath; // Implements .dll
 
 namespace MSSS_Console_app 
 {
+    [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)] // ????
     internal class AstroServer : IAstroContract // Question 6.2 Create server file called "AstroServer.cs" - Implements IAstroContract + AstroMath.dll 
     {
-        public AstroMathFunctions AstroMath = new AstroMathFunctions();
+        AstroMathFunctions AstroMath = new AstroMathFunctions();
 
-        double IAstroContract.EventHorizon(double blackholeMass) // I'm assuming this is correct
+        public double EventHorizon(double blackholeMass) // I'm assuming this is correct
         {
             return AstroMath.EventHorizon(blackholeMass);
         }
 
-        double IAstroContract.StarDistance(double arcsecondsAngle)
+        public double StarDistance(double arcsecondsAngle)
         {
             return AstroMath.StarDistance(arcsecondsAngle);
         }
 
-        double IAstroContract.StarVelocity(double observedWaveLength, double restWaveLength)
+        public double StarVelocity(double observedWaveLength, double restWaveLength)
         {
             return AstroMath.StarVelocity(observedWaveLength, restWaveLength);
         }
 
-        double IAstroContract.TemperatureInKelvin(double temperatureInCelsius)
+        public double TemperatureInKelvin(double temperatureInCelsius)
         {
             return AstroMath.TemperatureInKelvin(temperatureInCelsius);
         }
