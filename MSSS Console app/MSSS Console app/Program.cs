@@ -11,28 +11,18 @@ namespace MSSS_Console_app
     {
         static void Main(string[] args)
         {
-            string address = "net.pipe://localhost/pipemynumbers";
-            NetNamedPipeBinding binding = new NetNamedPipeBinding(NetNamedPipeSecurityMode.None);
-            EndpointAddress ep = new EndpointAddress(address);
-            IAstroContract channel = ChannelFactory<IAstroContract>.CreateChannel(binding, ep);
-            bool running = true;
-            // I think this is the main part done, now i just link it up me thinks
-
-            // CONSOLE SERVER - MENU
-            Console.WriteLine("ASTROSERVER is now running. - By Jack P467103");
-            Console.WriteLine("Type 'h'for help to see available options.");
-            while (running)
+            using (ServiceHost host = new ServiceHost(typeof(AstroServer),
+            new Uri[]{
+                        new Uri("net.pipe://localhost")
+            }))
             {
-                string value = Console.ReadLine().ToLower().Trim(); // Could use a switch case but theres not THAT many options atm
-                if(value == "h") { Console.WriteLine("Available options:\n'q' - to close server.\n'h' - see available options.\n");} // Add more if necessary
-                if(value == "q") { running = false; }
-                // add more if necessary
+                host.AddServiceEndpoint(typeof(AstroServer),
+                new NetNamedPipeBinding(), "PipeReverse");
+                host.Open();
+                Console.WriteLine("Service is available. " + "Press <ENTER> to exit.");
+                Console.ReadLine();
+                host.Close();
             }
-            Console.Write("\nPress Enter to close program :)");
-            Console.ReadLine();
         }
-
-        // Can use console to use IAstroContract
-
     }
 }
