@@ -24,9 +24,9 @@
         }
 
 
-        public double TemperatureInKelvin(double temperatureIncelsius)
+        public double TemperatureInKelvin(double temperatureInCelsius)
         {
-            double kelvin = temperatureIncelsius + 273.15;
+            double kelvin = temperatureInCelsius + 273.15; // The Actual zero kelvin
             return kelvin;
         }
 
