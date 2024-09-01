@@ -1,15 +1,15 @@
 ﻿using System;
 using System.ServiceModel;
-using AstroMath; // Implements .dll
+using AstroMathLib;
 
 namespace MSSS_Console_app 
 {
-    [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)] // ????
-    internal class AstroServer : IAstroContract // Question 6.2 Create server file called "AstroServer.cs" - Implements IAstroContract + AstroMath.dll 
+    [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)]
+    internal class AstroServer : IAstroContract 
     {
-        AstroMathFunctions AstroMath = new AstroMathFunctions();
+        readonly AstroMathFunctions AstroMath = new AstroMathFunctions();
 
-        public double EventHorizon(double blackholeMass) // I'm assuming this is correct
+        public double EventHorizon(double blackholeMass) 
         {
             return AstroMath.EventHorizon(blackholeMass);
         }

@@ -1,0 +1,6 @@
+Z:\AstroMathLib\AstroMathLib\bin\Debug\AstroMathLib.dll
+Z:\AstroMathLib\AstroMathLib\bin\Debug\AstroMathLib.pdb
+Z:\AstroMathLib\AstroMathLib\obj\Debug\AstroMathLib.csproj.AssemblyReference.cache
+Z:\AstroMathLib\AstroMathLib\obj\Debug\AstroMathLib.csproj.CoreCompileInputs.cache
+Z:\AstroMathLib\AstroMathLib\obj\Debug\AstroMathLib.dll
+Z:\AstroMathLib\AstroMathLib\obj\Debug\AstroMathLib.pdb
