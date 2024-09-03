@@ -1,0 +1,7 @@
+C:\Users\p467103\Desktop\MSSS Console Client App\MSSS Console Client App\obj\Debug\MSSS Console Client App.csproj.AssemblyReference.cache
+C:\Users\p467103\Desktop\MSSS Console Client App\MSSS Console Client App\obj\Debug\MSSS Console Client App.csproj.CoreCompileInputs.cache
+C:\Users\p467103\Desktop\MSSS Console Client App\MSSS Console Client App\bin\Debug\MSSS Console Client App.exe.config
+C:\Users\p467103\Desktop\MSSS Console Client App\MSSS Console Client App\bin\Debug\MSSS Console Client App.exe
+C:\Users\p467103\Desktop\MSSS Console Client App\MSSS Console Client App\bin\Debug\MSSS Console Client App.pdb
+C:\Users\p467103\Desktop\MSSS Console Client App\MSSS Console Client App\obj\Debug\MSSS Console Client App.exe
+C:\Users\p467103\Desktop\MSSS Console Client App\MSSS Console Client App\obj\Debug\MSSS Console Client App.pdb
