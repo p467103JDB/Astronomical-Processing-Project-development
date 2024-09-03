@@ -11,17 +11,17 @@ namespace AstroMathLib
         public double StarVelocity(double observedWavelength, double restWaveLength)
         {
             double changeInWavelength = observedWavelength - restWaveLength;
-            double c = 299792458; // Speed of light
-            double starVelocity = c / changeInWavelength; // is this right?
+            double c = 299792458; //  Speed of light / Metres per second
+            double starVelocity = c * (changeInWavelength / restWaveLength);
             return starVelocity;
         }
 
         public double StarDistance(double arcsecondsAngle)
         {
-            double parallaxAngle = (1/3600)*arcsecondsAngle; // wtf does this mean
-            double parsec = 3.0857*Math.Pow(10, 16); // parsec
-            double distance = parsec / parallaxAngle;
-            return distance;
+            //double parallaxAngle = (1/3600)*arcsecondsAngle; // wtf does this mean
+            //double parsec = 3.0857*Math.Pow(10, 16); // parsec
+            //double distance = parsec / parallaxAngle;
+            return 1.0 / arcsecondsAngle;
         }
 
 
@@ -40,3 +40,28 @@ namespace AstroMathLib
         }
     }
 }
+
+/*
+public double StarVelocity(double observedWaveLength, double atRestWavelength)
+{
+    double num = 2.99792458 * Math.Pow(10.0, 8.0);
+    double num2 = observedWaveLength - atRestWavelength;
+    return num * (num2 / atRestWavelength);
+}
+
+public double StarDistance(double angle)
+{
+    return 1.0 / angle;
+}
+
+public double Kelvin(double celsius)
+{
+    return celsius + 273.0;
+}
+
+public double EventHorizon(double blackHoleMass)
+{
+    double num = 6.6743 * Math.Pow(10.0, -11.0);
+    double num2 = 2.99792458 * Math.Pow(10.0, 8.0);
+    return 2.0 * num * blackHoleMass / (num2 * num2);
+}*/

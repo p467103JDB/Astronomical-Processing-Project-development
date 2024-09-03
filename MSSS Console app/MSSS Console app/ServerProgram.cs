@@ -7,7 +7,7 @@ namespace MSSS_Console_app
     {
         static void Main(string[] args)
         {
-            string address = "net.pipe://localhost/pipemath";
+            string address = "net.pipe://localhost/pipeMSSS";
 
             ServiceHost serviceHost = new ServiceHost(typeof(AstroServer));
             NetNamedPipeBinding binding = new NetNamedPipeBinding(NetNamedPipeSecurityMode.None);
