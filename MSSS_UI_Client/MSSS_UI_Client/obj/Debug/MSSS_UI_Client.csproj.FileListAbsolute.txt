@@ -1,0 +1,16 @@
+C:\Users\p467103\Desktop\MSSS_UI_Client\MSSS_UI_Client\bin\Debug\MSSS_UI_Client.exe.config
+C:\Users\p467103\Desktop\MSSS_UI_Client\MSSS_UI_Client\bin\Debug\MSSS_UI_Client.exe
+C:\Users\p467103\Desktop\MSSS_UI_Client\MSSS_UI_Client\bin\Debug\MSSS_UI_Client.pdb
+C:\Users\p467103\Desktop\MSSS_UI_Client\MSSS_UI_Client\bin\Debug\en\MSSS_UI_Client.resources.dll
+C:\Users\p467103\Desktop\MSSS_UI_Client\MSSS_UI_Client\bin\Debug\fr\MSSS_UI_Client.resources.dll
+C:\Users\p467103\Desktop\MSSS_UI_Client\MSSS_UI_Client\obj\Debug\MSSS_UI_Client.csproj.AssemblyReference.cache
+C:\Users\p467103\Desktop\MSSS_UI_Client\MSSS_UI_Client\obj\Debug\MSSS_UI_Client.Form1.resources
+C:\Users\p467103\Desktop\MSSS_UI_Client\MSSS_UI_Client\obj\Debug\MSSS_UI_Client.Properties.Resources.resources
+C:\Users\p467103\Desktop\MSSS_UI_Client\MSSS_UI_Client\obj\Debug\MSSS_UI_Client.Form1.en.resources
+C:\Users\p467103\Desktop\MSSS_UI_Client\MSSS_UI_Client\obj\Debug\MSSS_UI_Client.Form1.fr.resources
+C:\Users\p467103\Desktop\MSSS_UI_Client\MSSS_UI_Client\obj\Debug\MSSS_UI_Client.csproj.GenerateResource.cache
+C:\Users\p467103\Desktop\MSSS_UI_Client\MSSS_UI_Client\obj\Debug\MSSS_UI_Client.csproj.CoreCompileInputs.cache
+C:\Users\p467103\Desktop\MSSS_UI_Client\MSSS_UI_Client\obj\Debug\en\MSSS_UI_Client.resources.dll
+C:\Users\p467103\Desktop\MSSS_UI_Client\MSSS_UI_Client\obj\Debug\fr\MSSS_UI_Client.resources.dll
+C:\Users\p467103\Desktop\MSSS_UI_Client\MSSS_UI_Client\obj\Debug\MSSS_UI_Client.exe
+C:\Users\p467103\Desktop\MSSS_UI_Client\MSSS_UI_Client\obj\Debug\MSSS_UI_Client.pdb

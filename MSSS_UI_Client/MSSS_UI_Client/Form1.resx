@@ -117,4 +117,444 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button_Calc_Star_Velocity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>452, 50</value>
+  </data>
+  <data name="button_Calc_Star_Velocity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 32</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button_Calc_Star_Velocity.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button_Calc_Star_Velocity.Text" xml:space="preserve">
+    <value>Star Velocity</value>
+  </data>
+  <data name="&gt;&gt;button_Calc_Star_Velocity.Name" xml:space="preserve">
+    <value>button_Calc_Star_Velocity</value>
+  </data>
+  <data name="&gt;&gt;button_Calc_Star_Velocity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_Calc_Star_Velocity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_Calc_Star_Velocity.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="button_Calc_Star_Distance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>452, 88</value>
+  </data>
+  <data name="button_Calc_Star_Distance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 32</value>
+  </data>
+  <data name="button_Calc_Star_Distance.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="button_Calc_Star_Distance.Text" xml:space="preserve">
+    <value>Star Distance</value>
+  </data>
+  <data name="&gt;&gt;button_Calc_Star_Distance.Name" xml:space="preserve">
+    <value>button_Calc_Star_Distance</value>
+  </data>
+  <data name="&gt;&gt;button_Calc_Star_Distance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_Calc_Star_Distance.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_Calc_Star_Distance.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="button_Calc_C_To_K.Location" type="System.Drawing.Point, System.Drawing">
+    <value>452, 126</value>
+  </data>
+  <data name="button_Calc_C_To_K.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 32</value>
+  </data>
+  <data name="button_Calc_C_To_K.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="button_Calc_C_To_K.Text" xml:space="preserve">
+    <value>Celsius To Kelvin</value>
+  </data>
+  <data name="&gt;&gt;button_Calc_C_To_K.Name" xml:space="preserve">
+    <value>button_Calc_C_To_K</value>
+  </data>
+  <data name="&gt;&gt;button_Calc_C_To_K.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_Calc_C_To_K.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_Calc_C_To_K.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="button_Calc_Event_Horizon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>452, 164</value>
+  </data>
+  <data name="button_Calc_Event_Horizon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 32</value>
+  </data>
+  <data name="button_Calc_Event_Horizon.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="button_Calc_Event_Horizon.Text" xml:space="preserve">
+    <value>Event Horizon</value>
+  </data>
+  <data name="&gt;&gt;button_Calc_Event_Horizon.Name" xml:space="preserve">
+    <value>button_Calc_Event_Horizon</value>
+  </data>
+  <data name="&gt;&gt;button_Calc_Event_Horizon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_Calc_Event_Horizon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_Calc_Event_Horizon.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="textBox_SV_OWL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 50</value>
+  </data>
+  <data name="textBox_SV_OWL.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox_SV_OWL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 32</value>
+  </data>
+  <data name="textBox_SV_OWL.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;textBox_SV_OWL.Name" xml:space="preserve">
+    <value>textBox_SV_OWL</value>
+  </data>
+  <data name="&gt;&gt;textBox_SV_OWL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_SV_OWL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_SV_OWL.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="textBox_SV_RWL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>680, 50</value>
+  </data>
+  <data name="textBox_SV_RWL.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox_SV_RWL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 32</value>
+  </data>
+  <data name="textBox_SV_RWL.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;textBox_SV_RWL.Name" xml:space="preserve">
+    <value>textBox_SV_RWL</value>
+  </data>
+  <data name="&gt;&gt;textBox_SV_RWL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_SV_RWL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_SV_RWL.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textBox_SD_ASA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 88</value>
+  </data>
+  <data name="textBox_SD_ASA.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox_SD_ASA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 32</value>
+  </data>
+  <data name="textBox_SD_ASA.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;textBox_SD_ASA.Name" xml:space="preserve">
+    <value>textBox_SD_ASA</value>
+  </data>
+  <data name="&gt;&gt;textBox_SD_ASA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_SD_ASA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_SD_ASA.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="textBox_CtK_DC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 126</value>
+  </data>
+  <data name="textBox_CtK_DC.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox_CtK_DC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 32</value>
+  </data>
+  <data name="textBox_CtK_DC.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;textBox_CtK_DC.Name" xml:space="preserve">
+    <value>textBox_CtK_DC</value>
+  </data>
+  <data name="&gt;&gt;textBox_CtK_DC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_CtK_DC.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_CtK_DC.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="textBox_EH_BHM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 164</value>
+  </data>
+  <data name="textBox_EH_BHM.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox_EH_BHM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 32</value>
+  </data>
+  <data name="textBox_EH_BHM.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;textBox_EH_BHM.Name" xml:space="preserve">
+    <value>textBox_EH_BHM</value>
+  </data>
+  <data name="&gt;&gt;textBox_EH_BHM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_EH_BHM.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_EH_BHM.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="toolStrip_Text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 428</value>
+  </data>
+  <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 22</value>
+  </data>
+  <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="statusStrip1.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 17</value>
+  </metadata>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="frenchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="frenchToolStripMenuItem.Text" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="germanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="germanToolStripMenuItem.Text" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 20</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 24</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="columnMethod.Text" xml:space="preserve">
+    <value>Method</value>
+  </data>
+  <data name="columnMethod.Width" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="columnInput1.Text" xml:space="preserve">
+    <value>Input Value 1</value>
+  </data>
+  <data name="columnInput1.Width" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="columnInput2.Text" xml:space="preserve">
+    <value>Input Value 2</value>
+  </data>
+  <data name="columnInput2.Width" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="columnResult.Text" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="columnResult.Width" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="listViewResults.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 50</value>
+  </data>
+  <data name="listViewResults.Size" type="System.Drawing.Size, System.Drawing">
+    <value>433, 361</value>
+  </data>
+  <data name="listViewResults.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;listViewResults.Name" xml:space="preserve">
+    <value>listViewResults</value>
+  </data>
+  <data name="&gt;&gt;listViewResults.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listViewResults.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;listViewResults.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>MSSS UI Client</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_Text.Name" xml:space="preserve">
+    <value>toolStrip_Text</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_Text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
+    <value>fileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Name" xml:space="preserve">
+    <value>exitToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;languageToolStripMenuItem.Name" xml:space="preserve">
+    <value>languageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;languageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;englishToolStripMenuItem.Name" xml:space="preserve">
+    <value>englishToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;englishToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;frenchToolStripMenuItem.Name" xml:space="preserve">
+    <value>frenchToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;frenchToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;germanToolStripMenuItem.Name" xml:space="preserve">
+    <value>germanToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;germanToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnMethod.Name" xml:space="preserve">
+    <value>columnMethod</value>
+  </data>
+  <data name="&gt;&gt;columnMethod.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnInput1.Name" xml:space="preserve">
+    <value>columnInput1</value>
+  </data>
+  <data name="&gt;&gt;columnInput1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnInput2.Name" xml:space="preserve">
+    <value>columnInput2</value>
+  </data>
+  <data name="&gt;&gt;columnInput2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnResult.Name" xml:space="preserve">
+    <value>columnResult</value>
+  </data>
+  <data name="&gt;&gt;columnResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
