@@ -1,0 +1,12 @@
+Z:\AstroMathLib\AstroMathLib\bin\Release\AstroMathLib.dll
+Z:\AstroMathLib\AstroMathLib\bin\Release\AstroMathLib.pdb
+Z:\AstroMathLib\AstroMathLib\obj\Release\AstroMathLib.csproj.AssemblyReference.cache
+Z:\AstroMathLib\AstroMathLib\obj\Release\AstroMathLib.csproj.CoreCompileInputs.cache
+Z:\AstroMathLib\AstroMathLib\obj\Release\AstroMathLib.dll
+Z:\AstroMathLib\AstroMathLib\obj\Release\AstroMathLib.pdb
+C:\Users\p467103\Documents\GitHub\Astronomical-Processing-Project-development\AstroMathLib\AstroMathLib\bin\Release\AstroMathLib.dll
+C:\Users\p467103\Documents\GitHub\Astronomical-Processing-Project-development\AstroMathLib\AstroMathLib\bin\Release\AstroMathLib.pdb
+C:\Users\p467103\Documents\GitHub\Astronomical-Processing-Project-development\AstroMathLib\AstroMathLib\obj\Release\AstroMathLib.csproj.AssemblyReference.cache
+C:\Users\p467103\Documents\GitHub\Astronomical-Processing-Project-development\AstroMathLib\AstroMathLib\obj\Release\AstroMathLib.csproj.CoreCompileInputs.cache
+C:\Users\p467103\Documents\GitHub\Astronomical-Processing-Project-development\AstroMathLib\AstroMathLib\obj\Release\AstroMathLib.dll
+C:\Users\p467103\Documents\GitHub\Astronomical-Processing-Project-development\AstroMathLib\AstroMathLib\obj\Release\AstroMathLib.pdb

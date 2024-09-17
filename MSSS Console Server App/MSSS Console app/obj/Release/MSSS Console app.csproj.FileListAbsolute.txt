@@ -1,0 +1,26 @@
+D:\GitHub Clones\Astronomical-Processing-Project-development\MSSS Console app\MSSS Console app\bin\Release\MSSS Console app.exe.config
+D:\GitHub Clones\Astronomical-Processing-Project-development\MSSS Console app\MSSS Console app\bin\Release\MSSS Console app.exe.manifest
+D:\GitHub Clones\Astronomical-Processing-Project-development\MSSS Console app\MSSS Console app\bin\Release\MSSS Console app.application
+D:\GitHub Clones\Astronomical-Processing-Project-development\MSSS Console app\MSSS Console app\bin\Release\MSSS Console app.exe
+D:\GitHub Clones\Astronomical-Processing-Project-development\MSSS Console app\MSSS Console app\bin\Release\MSSS Console app.pdb
+D:\GitHub Clones\Astronomical-Processing-Project-development\MSSS Console app\MSSS Console app\bin\Release\AstroMath.dll
+D:\GitHub Clones\Astronomical-Processing-Project-development\MSSS Console app\MSSS Console app\obj\Release\MSSS Console app.csproj.AssemblyReference.cache
+D:\GitHub Clones\Astronomical-Processing-Project-development\MSSS Console app\MSSS Console app\obj\Release\MSSS Console app.csproj.CoreCompileInputs.cache
+D:\GitHub Clones\Astronomical-Processing-Project-development\MSSS Console app\MSSS Console app\obj\Release\MSSS Console app.exe.manifest
+D:\GitHub Clones\Astronomical-Processing-Project-development\MSSS Console app\MSSS Console app\obj\Release\MSSS Console app.application
+D:\GitHub Clones\Astronomical-Processing-Project-development\MSSS Console app\MSSS Console app\obj\Release\MSSS Con.F2296E26.Up2Date
+D:\GitHub Clones\Astronomical-Processing-Project-development\MSSS Console app\MSSS Console app\obj\Release\MSSS Console app.exe
+D:\GitHub Clones\Astronomical-Processing-Project-development\MSSS Console app\MSSS Console app\obj\Release\MSSS Console app.pdb
+C:\Users\p467103\Desktop\MSSS Console Server App\MSSS Console app\bin\Release\MSSS Console Server app.exe.config
+C:\Users\p467103\Desktop\MSSS Console Server App\MSSS Console app\bin\Release\MSSS Console Server app.exe.manifest
+C:\Users\p467103\Desktop\MSSS Console Server App\MSSS Console app\bin\Release\MSSS Console Server app.application
+C:\Users\p467103\Desktop\MSSS Console Server App\MSSS Console app\bin\Release\MSSS Console Server app.exe
+C:\Users\p467103\Desktop\MSSS Console Server App\MSSS Console app\bin\Release\MSSS Console Server app.pdb
+C:\Users\p467103\Desktop\MSSS Console Server App\MSSS Console app\bin\Release\AstroMathLib.dll
+C:\Users\p467103\Desktop\MSSS Console Server App\MSSS Console app\obj\Release\MSSS Console app.csproj.AssemblyReference.cache
+C:\Users\p467103\Desktop\MSSS Console Server App\MSSS Console app\obj\Release\MSSS Console app.csproj.CoreCompileInputs.cache
+C:\Users\p467103\Desktop\MSSS Console Server App\MSSS Console app\obj\Release\MSSS Console Server app.exe.manifest
+C:\Users\p467103\Desktop\MSSS Console Server App\MSSS Console app\obj\Release\MSSS Console Server app.application
+C:\Users\p467103\Desktop\MSSS Console Server App\MSSS Console app\obj\Release\MSSS Console app.csproj.CopyComplete
+C:\Users\p467103\Desktop\MSSS Console Server App\MSSS Console app\obj\Release\MSSS Console Server app.exe
+C:\Users\p467103\Desktop\MSSS Console Server App\MSSS Console app\obj\Release\MSSS Console Server app.pdb
