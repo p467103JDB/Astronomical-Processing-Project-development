@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ServiceModel;
 
+
+// Q7.1
 namespace MSSS_UI_Client
 {
     [ServiceContract]

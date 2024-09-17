@@ -22,7 +22,7 @@ namespace MSSS_UI_Client
             InitializeComponent();
             CheckConnection();
         }
-        // Connection to server. Need to fix if it doesnt work
+        // Connection to server on start up
         static string address = "net.pipe://localhost/pipeMSSS";
         static NetNamedPipeBinding binding = new NetNamedPipeBinding(NetNamedPipeSecurityMode.None);
         static EndpointAddress ep = new EndpointAddress(address);
@@ -50,11 +50,11 @@ namespace MSSS_UI_Client
                 try
                 {
                     double calc = channel.StarVelocity(OWL, RWL); // Star Velocity Speed in m/s
-                    AddToListView(button_Calc_Star_Velocity.Text, OWL, RWL.ToString(), calc.ToString() + "m/s");
-                    
+                    AddToListView(button_Calc_Star_Velocity.Text, OWL, RWL.ToString(), calc.ToString() + " m/s");
+                    ClearTextBoxes();
                     toolStrip_Text.Text = "Method completed successfully";
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     toolStrip_Text.Text = "Could not connect to server";
                 }
@@ -73,15 +73,14 @@ namespace MSSS_UI_Client
             else
             {
                 double ASA = double.Parse(textBox_SD_ASA.Text); // Arcsecond Angle
-
                 try
                 {
                     double calc = channel.StarDistance(ASA); // Star Distance in parsecs
-                    AddToListView(button_Calc_Star_Distance.Text, ASA, "-", calc.ToString() + "parsecs");
+                    AddToListView(button_Calc_Star_Distance.Text, ASA, "-", calc.ToString() + " parsecs");
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
-                    toolStrip_Text.Text = $"{ex}";
+                    toolStrip_Text.Text = "Could not connect to server";
                 }
             }
         }
@@ -97,15 +96,14 @@ namespace MSSS_UI_Client
             else
             {
                 double DC = double.Parse(textBox_CtK_DC.Text.ToString()); // Degrees Celsius
-
                 try
                 {
                     double calc = channel.TemperatureInKelvin(DC); // Temperature converted to Kelvin
-                    AddToListView(button_Calc_C_To_K.Text, DC, "-", calc.ToString() + "K");
+                    AddToListView(button_Calc_C_To_K.Text, DC, "-", calc.ToString() + " K");
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
-                    toolStrip_Text.Text = $"{ex}";
+                    toolStrip_Text.Text = "Could not connect to server";
                 }
             }
         }
@@ -133,8 +131,29 @@ namespace MSSS_UI_Client
                 }
             }
         }
+
+        // CLEAR ALL BUTTON
+        private void buttonClearData_Click(object sender, EventArgs e)
+        {
+            listViewResults.Items.Clear();
+            ClearTextBoxes();
+
+        }
         #endregion
 
+        // Clear Textboxes
+        private void ClearTextBoxes()
+        {
+            foreach (Control control in this.Controls)
+            {
+                if (control is System.Windows.Forms.TextBox textBox)
+                {
+                    textBox.Text = "";
+                }
+            }
+        }
+
+        // Double Validator
         private static bool ValidDouble(System.Windows.Forms.TextBox textbox)
         {
             try 
@@ -144,10 +163,13 @@ namespace MSSS_UI_Client
             }
             catch (Exception) // If it cannot parse it as a double then it returns false
             {
+                textbox.Clear();
+                textbox.Focus();
                 return false; 
             }
         }
 
+        // Add item to ListView 
         private void AddToListView(string method, double input1, string input2, string result)
         {
             // https://stackoverflow.com/questions/473148/c-sharp-listview-how-do-i-add-items-to-columns-2-3-and-4-etc
@@ -158,40 +180,13 @@ namespace MSSS_UI_Client
 
             // Add item to the listview
             listViewResults.Items.Add(newItem);
+
+            ClearTextBoxes();
+            toolStrip_Text.Text = "Method completed successfully";
         }
 
-        #region MENU & LANGUAGE
-        private void englishToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en"); // Change language to English
-            defaultToolStripMenuItem_Click(sender, e);
-            this.Controls.Clear(); // Clear buttons in UI
-            InitializeComponent(); // Reinitialize UI
-        }
-
-        private void frenchToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("fr"); // Change language to French
-            defaultToolStripMenuItem_Click(sender, e);
-            this.Controls.Clear(); // Clear buttons in UI
-            InitializeComponent(); // Reinitialize UI
-        }
-
-        private void germanToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("de"); // Change language to German
-            defaultToolStripMenuItem_Click(sender, e);
-            this.Controls.Clear(); // Clear buttons in UI
-            InitializeComponent(); // Reinitialize UI
-        }
-
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Environment.Exit(0);
-        }
-
-        // COLOURS + THEMES
-
+        #region UI THEME PICKER
+        // Q7.4 Change Form UI Style
         private void defaultToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.BackColor = SystemColors.Control;
@@ -205,8 +200,7 @@ namespace MSSS_UI_Client
                 {
                     textBox.BackColor = SystemColors.Window;
                 }
-
-                if (control is System.Windows.Forms.Button button)
+                else if (control is System.Windows.Forms.Button button)
                 {
                     button.BackColor = SystemColors.Control;
                 }
@@ -226,14 +220,14 @@ namespace MSSS_UI_Client
                 {
                     textBox.BackColor = Color.DarkGray;
                 }
-
-                if (control is System.Windows.Forms.Button button)
+                else if (control is System.Windows.Forms.Button button)
                 {
                     button.BackColor = SystemColors.Control;
                 }
             }
         }
 
+        // Q7.5 Background Colour Picker
         private void customToolStripMenuItem_Click(object sender, EventArgs e)
         {
             using (ColorDialog colorDialog = new ColorDialog())
@@ -241,17 +235,6 @@ namespace MSSS_UI_Client
                 if (colorDialog.ShowDialog() == DialogResult.OK)
                 {
                     this.BackColor = colorDialog.Color;
-                }
-            }
-        }
-
-        private void customizeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            using (FontDialog fontDialog = new FontDialog())
-            {
-                if (fontDialog.ShowDialog() == DialogResult.OK)
-                {
-                    this.Font = fontDialog.Font;
                 }
             }
         }
@@ -275,10 +258,51 @@ namespace MSSS_UI_Client
             }
         }
 
+        // Q7.6
+        private void customizeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (FontDialog fontDialog = new FontDialog())
+            {
+                if (fontDialog.ShowDialog() == DialogResult.OK)
+                {
+                    this.Font = fontDialog.Font;
+                }
+            }
+        }
         #endregion
 
+        #region LANGUAGES
+        /// Q7.3 LANGUAGE OPTIONS
+        private void englishToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en"); // Change language to English
+            defaultToolStripMenuItem_Click(sender, e);
+            ClearControls();
+        }
 
-        #region CHECK CONNECTION
+        private void frenchToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("fr"); // Change language to French
+            defaultToolStripMenuItem_Click(sender, e);
+            ClearControls();
+        }
+
+        private void germanToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("de"); // Change language to German
+            defaultToolStripMenuItem_Click(sender, e);
+            ClearControls();
+        }
+
+        private void ClearControls()
+        {
+            this.Controls.Clear(); // Clear buttons in UI
+            InitializeComponent(); // Reinitialize UI
+        }
+        #endregion
+
+        #region MENU OPTIONS
+        // Check connection to server
         private void testConnectionToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             CheckConnection();
@@ -288,15 +312,20 @@ namespace MSSS_UI_Client
         {
             try
             {
-                // Call an existing method to check the connection
-                // Use simple or dummy parameters if needed
-                double testResult = channel.StarVelocity(0, 0); // Replace with a lightweight method
+                // Call simple method to test connection.
+                double testResult = channel.TemperatureInKelvin(0);
                 toolStrip_Text.Text = "Connected to the service successfully!";
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                toolStrip_Text.Text = "Failed to connect to the service.";
+                toolStrip_Text.Text = "Failed to connect to the service. If server was not open before opening this program. Please restart client.";
             }
+        }
+
+        // Exit Program
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
         }
         #endregion
     }

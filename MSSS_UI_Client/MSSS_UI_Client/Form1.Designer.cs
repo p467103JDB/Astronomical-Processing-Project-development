@@ -56,6 +56,8 @@
             this.customizeToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.fontToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.customizeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.testConnectionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.testConnectionToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.listViewResults = new System.Windows.Forms.ListView();
             this.columnMethod = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnInput1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -67,8 +69,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.testConnectionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.testConnectionToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.buttonClearData = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -251,6 +252,19 @@
             resources.ApplyResources(this.customizeToolStripMenuItem, "customizeToolStripMenuItem");
             this.customizeToolStripMenuItem.Click += new System.EventHandler(this.customizeToolStripMenuItem_Click);
             // 
+            // testConnectionToolStripMenuItem
+            // 
+            this.testConnectionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.testConnectionToolStripMenuItem1});
+            this.testConnectionToolStripMenuItem.Name = "testConnectionToolStripMenuItem";
+            resources.ApplyResources(this.testConnectionToolStripMenuItem, "testConnectionToolStripMenuItem");
+            // 
+            // testConnectionToolStripMenuItem1
+            // 
+            this.testConnectionToolStripMenuItem1.Name = "testConnectionToolStripMenuItem1";
+            resources.ApplyResources(this.testConnectionToolStripMenuItem1, "testConnectionToolStripMenuItem1");
+            this.testConnectionToolStripMenuItem1.Click += new System.EventHandler(this.testConnectionToolStripMenuItem1_Click);
+            // 
             // listViewResults
             // 
             this.listViewResults.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -311,23 +325,18 @@
             resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
             // 
-            // testConnectionToolStripMenuItem
+            // buttonClearData
             // 
-            this.testConnectionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.testConnectionToolStripMenuItem1});
-            this.testConnectionToolStripMenuItem.Name = "testConnectionToolStripMenuItem";
-            resources.ApplyResources(this.testConnectionToolStripMenuItem, "testConnectionToolStripMenuItem");
-            // 
-            // testConnectionToolStripMenuItem1
-            // 
-            this.testConnectionToolStripMenuItem1.Name = "testConnectionToolStripMenuItem1";
-            resources.ApplyResources(this.testConnectionToolStripMenuItem1, "testConnectionToolStripMenuItem1");
-            this.testConnectionToolStripMenuItem1.Click += new System.EventHandler(this.testConnectionToolStripMenuItem1_Click);
+            resources.ApplyResources(this.buttonClearData, "buttonClearData");
+            this.buttonClearData.Name = "buttonClearData";
+            this.buttonClearData.UseVisualStyleBackColor = true;
+            this.buttonClearData.Click += new System.EventHandler(this.buttonClearData_Click);
             // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.buttonClearData);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -399,6 +408,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ToolStripMenuItem testConnectionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem testConnectionToolStripMenuItem1;
+        private System.Windows.Forms.Button buttonClearData;
     }
 }
 
