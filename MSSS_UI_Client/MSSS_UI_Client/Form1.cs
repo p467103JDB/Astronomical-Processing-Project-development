@@ -185,7 +185,7 @@ namespace MSSS_UI_Client
             toolStrip_Text.Text = "Method completed successfully";
         }
 
-        #region UI THEME PICKER
+        #region UI THEME AND BUTTON PICKER
         // Q7.4 Change Form UI Style
         private void defaultToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -194,6 +194,7 @@ namespace MSSS_UI_Client
             this.statusStrip1.BackColor = SystemColors.Control;
             this.listViewResults.BackColor = SystemColors.Window;
 
+            // Although it might be slow, it goes through all controls to check for button or textboxes
             foreach (Control control in this.Controls)
             {
                 if (control is System.Windows.Forms.TextBox textBox)
@@ -209,12 +210,14 @@ namespace MSSS_UI_Client
 
         private void darkGrayToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // Changes colours to UI to gray and dark gray
             this.BackColor = System.Drawing.Color.Gray;
             this.menuStrip1.BackColor = System.Drawing.Color.DarkGray;
             this.statusStrip1.BackColor = System.Drawing.Color.DarkGray;
             this.listViewResults.BackColor = System.Drawing.Color.DarkGray;
 
-            foreach (Control control in this.Controls)
+            // Although it might be slow, it goes through all controls to check for button or textboxes
+            foreach (Control control in this.Controls) 
             {
                 if (control is System.Windows.Forms.TextBox textBox)
                 {
@@ -242,6 +245,7 @@ namespace MSSS_UI_Client
         // BUTTON COLOUR PICKER
         private void customizeToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            // Open colorDialog for 
             using (ColorDialog colorDialog = new ColorDialog())
             {
                 if (colorDialog.ShowDialog() == DialogResult.OK)
